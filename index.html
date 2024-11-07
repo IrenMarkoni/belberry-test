@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Тестовое задание для Belberry</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/libs.min.css?1730962829389"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/global.css?1730962829389"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css?1730962829389"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css?1730962829389"/>
+  </head>
+  <body>
+    <main class="main">
+      <section class="hero"> 
+        <button class="primary-btn openmodal" data-modal="cart">В корзину</button>
+      </section>
+    </main>
+    <div class="modals">
+      <div class="modals-wrap">
+        <div class="modal" data-modal="cart">
+          <div class="modal__close"></div>
+          <div class="modal__content">
+            <div class="modal__overflow">
+              <div class="modal__top">
+                <div class="modal__title">Корзина товаров</div>
+              </div>
+              <div class="cart"> 
+                <div class="cart__table"> 
+                  <div class="cart__item" data-price="3300" id="0"> <a class="cart__item-img" style="background-image: url(assets/img/products/1.png)" href=""> </a>
+                    <div class="cart__item-info"> <a class="cart__item-name" href="">Блок питания</a>
+                      <div class="cart__item-descr">Блок питания аппарата Therapy Pulse</div>
+                      <div class="cart__item-brand">Therapy Pulse</div>
+                    </div>
+                    <div class="cart__item-controls">
+                      <div class="cart__item-price"><span>3300</span> ₽ </div>
+                      <div class="counter"> 
+                        <div class="counter__minus disabled"> </div>
+                        <input class="counter__input" type="text" value="1" data-max-count="5">
+                        <div class="counter__plus"></div>
+                      </div>
+                      <button class="cart__item-delete">Удалить</button>
+                    </div>
+                  </div>
+                  <div class="cart__item" data-price="2200" id="1"> <a class="cart__item-img" style="background-image: url(assets/img/products/2.png)" href=""> </a>
+                    <div class="cart__item-info"> <a class="cart__item-name" href="">Передний ролик</a>
+                      <div class="cart__item-descr">Ролик для манипулы аппарата Therapy Pulse</div>
+                      <div class="cart__item-brand">Therapy Pulse</div>
+                    </div>
+                    <div class="cart__item-controls">
+                      <div class="cart__item-price"><span>2200</span> ₽ </div>
+                      <div class="counter"> 
+                        <div class="counter__minus disabled"> </div>
+                        <input class="counter__input" type="text" value="1" data-max-count="6">
+                        <div class="counter__plus"></div>
+                      </div>
+                      <button class="cart__item-delete">Удалить</button>
+                    </div>
+                  </div>
+                  <div class="cart__item" data-price="3300" id="2"> <a class="cart__item-img" style="background-image: url(assets/img/products/3.png)" href=""> </a>
+                    <div class="cart__item-info"> <a class="cart__item-name" href="">Шафт</a>
+                      <div class="cart__item-descr">Втулка для манипулы (шафт) Therapy Pulse</div>
+                      <div class="cart__item-brand">Therapy Pulse</div>
+                    </div>
+                    <div class="cart__item-controls">
+                      <div class="cart__item-price"><span>3300</span> ₽ </div>
+                      <div class="counter"> 
+                        <div class="counter__minus disabled"> </div>
+                        <input class="counter__input" type="text" value="1" data-max-count="7">
+                        <div class="counter__plus"></div>
+                      </div>
+                      <button class="cart__item-delete">Удалить</button>
+                    </div>
+                  </div>
+                  <div class="cart__item" data-price="1400" id="3"> <a class="cart__item-img" style="background-image: url(assets/img/products/4.png)" href=""> </a>
+                    <div class="cart__item-info"> <a class="cart__item-name" href="">Кабель питания</a>
+                      <div class="cart__item-descr">Кабель питания Power Cube</div>
+                      <div class="cart__item-brand">Therapy Pulse</div>
+                    </div>
+                    <div class="cart__item-controls">
+                      <div class="cart__item-price"><span>1400</span> ₽ </div>
+                      <div class="counter"> 
+                        <div class="counter__minus disabled"> </div>
+                        <input class="counter__input" type="text" value="1" data-max-count="8">
+                        <div class="counter__plus"></div>
+                      </div>
+                      <button class="cart__item-delete">Удалить</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart__total">Итоговая стоимость: <span></span></div><a class="primary-btn primary-btn_order openmodal" data-modal="order">Перейти к оформлению</a><a class="primary-btn primary-btn_catalog" href="/catalog/">Перейти в каталог</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" data-modal="order">
+          <div class="modal__close"></div>
+          <div class="modal__back openmodal" data-modal="cart"></div>
+          <div class="modal__content">
+            <div class="modal__overflow">
+              <div class="modal__top">
+                <div class="modal__title">Оформление заказа</div><a class="go-back openmodal" data-modal="cart">Вернуться назад</a>
+              </div>
+              <div class="order">
+                <div class="order__data"></div>
+                <div class="order__total">Итоговая стоимость: <span></span></div>
+                <form class="order__form"> 
+                  <p>Рассчитаем условия доставки специально для вас, оставьте заявку и мы с вами свяжемся</p>
+                  <div class="order__form-wrapper"> 
+                    <div class="custom-input">
+                      <select name="city">
+                        <option value="" hidden="" disabled="" selected="">Город доставки</option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                      <div class="custom-input__icon"> 
+                        <svg>
+                          <use xlink:href="assets/img/sprite.svg#search"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="custom-input">
+                      <input class="validate-field" type="text" placeholder="Название салона/клиники" name="organization">
+                    </div>
+                    <div class="custom-input">
+                      <input class="validate-field" type="text" placeholder="Ваше имя" name="name">
+                    </div>
+                    <div class="custom-input">
+                      <input class="validate-field" type="text" placeholder="Ваш номер телефона" data-tel-input name="phone" id="country-phone">
+                    </div>
+                    <div class="custom-input">
+                      <input class="validate-field" type="email" placeholder="E-mail" name="email">
+                    </div>
+                  </div>
+                  <button class="primary-btn" type="submit">Заказать</button>
+                  <div class="agreement">Отправляя заявку вы соглашаетесь с нашими <a href="">условиями обработки персональных данных</a></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal" data-modal="thanks-modal">
+          <div class="modal__close"></div>
+          <div class="modal__content">
+            <div class="modal__overflow">
+              <div class="modal__top">
+                <div class="modal__title">Спасибо за покупку!</div>
+              </div>
+              <p class="modal__txt">Мы свяжемся с вами в ближайшее время!</p><img src="assets/img/thanks.png" alt="image"/><a class="primary-btn" href="/catalog/">Вернуться к покупкам</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/libs.min.js?1730962829389"></script>
+    <script src="assets/js/global/global.min.js?1730962829389"></script>
+    <script src="assets/js/main/common.js?1730962829389"></script>
+  </body>
+</html>
